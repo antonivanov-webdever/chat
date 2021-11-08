@@ -9,8 +9,7 @@ body {
 
 .chat {
     background-color: #1A1A1A;
-    height: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }

@@ -17,6 +17,10 @@
     bottom: 0;
 }
 
+.add-message-form__textarea::-webkit-scrollbar {
+    width: 0px;
+}
+
 .add-message-form__textarea::placeholder {
     color: #D1D1D1;
 }
@@ -25,7 +29,7 @@
     width: 40px;
     height: 40px;
     right: 22px;
-    bottom: 16px;
+    bottom: 11px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,6 +39,10 @@
     outline: none;
 }
 
+.add-message-form__button.active {
+    cursor: pointer;
+}
+
 .add-message-form__button svg {
     fill: #9B9B9B;
     pointer-events: none;
@@ -42,5 +50,4 @@
 
 .add-message-form__button.active svg {
     fill: #14FF72;
-    cursor: pointer;
 }
